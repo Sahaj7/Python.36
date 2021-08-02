@@ -1,0 +1,12 @@
+l=int(input("Enter the value of length "))
+b=int(input("Enter the value of breadth "))
+h=int(input("Enter the value of height "))
+k=float((l**2)+(b**2)+(h**2))
+den=float(k**(1/2))
+num=float((b**2)*(l**2))
+v=float(num/den)
+x=round(v,3)
+print("Volume of Tromboloid=",x)
+
+r=float(((3*v)/(4*3.14))**(1/3))
+print("Radius of the sphere having the same volume = ",format(r,".3f"))
