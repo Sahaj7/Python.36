@@ -1,5 +1,7 @@
->>> 
-========================= RESTART: E:/Python/level3.py =========================
-notdepressed
-notdepressed notdepressed notdepressed notdepressed notdepressed
->>> 
+str1=input("enter string 1: ")
+str2=input("enter string 2: ")
+str=str1+str2
+str5=str*5
+print(str)
+print(str5)
+
