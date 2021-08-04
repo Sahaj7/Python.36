@@ -1,6 +1,4 @@
-  
-a=input("Enter 5 number: ")
-b=a.split()
+b=list(map(int, input("Enter 5 values: ").split()))
 c=b[0:3]
 d=b[::-1]
 print("sliced list: ",c)
