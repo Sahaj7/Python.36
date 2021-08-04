@@ -10,4 +10,4 @@ c[-1]=0
 print("Replaced list1= ",b)
 print("Replaced list2= ",c)
 
-print(d)
+print("reverse list: ",d)
